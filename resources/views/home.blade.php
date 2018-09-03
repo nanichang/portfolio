@@ -25,38 +25,39 @@
   <meta property="og:title" content="Page Title">
   <meta property="og:description" content="Description of the page">
   <meta property="og:type" content="website">
-  <meta property="og:image" content="/img/bg-default.jpg">
-  <meta property="og:image:secure_url" content="/img/bg-default.jpg">
+  <meta property="og:image" content="/assets/img/bg-default.jpg">
+  <meta property="og:image:secure_url" content="/assets/img/bg-default.jpg">
   <meta property="og:image:type" content="image/jpg">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
 
   <!-- Place favicon.ico and apple-touch-icon(s) in the root directory -->
   <!-- Web fonts and Web Icons -->
-  <link rel="stylesheet" href="./fonts/opensans/stylesheet.css">
-  <link rel="stylesheet" href="./fonts/montserrat/stylesheet.css">
-  <link rel="stylesheet" href="./fonts/playfair/stylesheet.css">
-  <link rel="stylesheet" href="./fonts/bebas/stylesheet.css">
-  <link rel="stylesheet" href="./fonts/ostrich/stylesheet.css">
-  <link rel="stylesheet" href="./fonts/ionicons.min.css">
-  <link rel="stylesheet" href="./fonts/font-awesome.min.css">
+  <link rel="stylesheet" href="./assets/fonts/opensans/stylesheet.css">
+  <link rel="stylesheet" href="./assets/fonts/montserrat/stylesheet.css">
+  <link rel="stylesheet" href="./assets/fonts/playfair/stylesheet.css">
+  <link rel="stylesheet" href="./assets/fonts/bebas/stylesheet.css">
+  <link rel="stylesheet" href="./assets/fonts/ostrich/stylesheet.css">
+  <link rel="stylesheet" href="./assets/fonts/ionicons.min.css">
+  <link rel="stylesheet" href="./assets/fonts/font-awesome.min.css">
 
   <!-- Vendor CSS style -->
-  <link rel="stylesheet" href="./css/pageloader.css">
+  <link rel="stylesheet" href="./assets/css/pageloader.css">
 
   <!-- Uncomment below to load individualy vendor CSS -->
-  <link rel="stylesheet" href="./css/bootstrap.min.css">
-  <link rel="stylesheet" href="./js/vendor/swiper.min.css">
-  <link rel="stylesheet" href="./js/vendor/jquery.fullpage.min.css">
-  <link rel="stylesheet" href="./js/vegas/vegas.min.css">
+  <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./assets/js/vendor/swiper.min.css">
+  <link rel="stylesheet" href="./assets/js/vendor/jquery.fullpage.min.css">
+  <link rel="stylesheet" href="./assets/js/vegas/vegas.min.css">
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
   <!-- Main CSS files -->
-  <link rel="stylesheet" href="./css/main.css">
+  <link rel="stylesheet" href="./assets/css/main.css">
 
   <!-- add alt layout here -->
   <!--<link rel="stylesheet" href="./css/style-default.css">-->
 
-  <script src="./js/vendor/modernizr-2.7.1.min.js"></script>
+  <script src="./assets/js/vendor/modernizr-2.7.1.min.js"></script>
 </head>
 
 <body id="menu" class="body-page">
@@ -91,7 +92,7 @@
     <!-- Begin of logo/brand -->
     <a class="navbar-brand" href="./#">
       <span class="logo">
-        <img class="light-logo" src="img/logo.png" alt="Logo">
+        <img class="light-logo" src="/assets/img/logo.png" alt="Logo">
       </span>
       <!-- logo title (optional) -->
       <!-- <span class="text">
@@ -107,17 +108,17 @@
       <nav class="navbar-topmenu">
         <ul class="navbar-social d-none d-lg-block">
           <li class="nav-item">
-            <a href="//facebook.com/miradontsoa" class="btn-social">
+            <a href="//facebook.com/nanichang.katzin" class="btn-social">
               <i class="icon fa fa-facebook"></i>
             </a>
           </li>
           <li class="nav-item">
-            <a href="//twitter/miradontsoa" class="btn-social">
+            <a href="//twitter/nanichangK" class="btn-social">
               <i class="icon fa fa-twitter"></i>
             </a>
           </li>
           <li class="nav-item">
-            <a href="//instagram.com/miradontsoa" class="btn-social">
+            <a href="//instagram.com/nanichang.katzin" class="btn-social">
               <i class="icon fa fa-instagram"></i>
             </a>
           </li>
@@ -225,7 +226,7 @@
   <!-- BEGIN OF page cover -->
   <div class="hh-cover page-cover">
     <!-- Cover Background -->
-    <div class="cover-bg bg-img " data-image-src="img/bg-default.jpg"></div>
+    <div class="cover-bg bg-img " data-image-src="/assets/img/bg-default.jpg"></div>
 
     <!-- Particles as background - uncomment below to use particles/snow -->
     <div id="particles-js" class="cover-bg pos-abs full-size bg-color" data-bgcolor="rgba(2, 3, 10, 0.7)"></div>
@@ -340,7 +341,7 @@
 
     <!-- Begin of description section -->
     <div class="section section-description fp-auto-height-responsive " data-section="about">
-      <div class="section-cover-tier left fit bg-img" data-image-src="./img/items/img-sample2.jpg">
+      <div class="section-cover-tier left fit bg-img" data-image-src="./assets/img/items/img-sample2.jpg">
       </div>
       <!-- Begin of section wrapper -->
       <div class="section-wrapper fullwidth fullheight with-margin center-lg-v padding-wrapper-topbottom">
@@ -409,7 +410,7 @@
 
     <!-- Begin of description section -->
     <div class="section section-description fp-auto-height-responsive " data-section="about-more">
-      <div class="section-cover-tier right fit bg-img" data-image-src="./img/items/img-person.jpg">
+      <div class="section-cover-tier right fit bg-img" data-image-src="./assets/img/items/img-person.jpg">
       </div>
       <!-- Begin of section wrapper -->
       <div class="section-wrapper fullwidth fullheight with-margin center-lg-v padding-wrapper-topbottom">
@@ -510,8 +511,8 @@
             </div>
 
             <div class="illustr">
-              <div class="img bg-img" data-image-src="img/items/img-sample4-square.jpg">
-                <img class="service-img" alt="img" src="img/items/settings_white.png">
+              <div class="img bg-img" data-image-src="/assets/img/items/img-sample4-square.jpg">
+                <img class="service-img" alt="img" src="/assets/img/items/settings_white.png">
               </div>
             </div>
           </div>
@@ -545,8 +546,8 @@
             </div>
 
             <div class="illustr">
-              <div class="img bg-img" data-image-src="img/items/img-sample3-square.jpg">
-                <img class="service-img" alt="img" src="img/items/bulb.png">
+              <div class="img bg-img" data-image-src="/assets/img/items/img-sample3-square.jpg">
+                <img class="service-img" alt="img" src="/assets/img/items/bulb.png">
               </div>
             </div>
           </div>
@@ -580,8 +581,8 @@
             </div>
 
             <div class="illustr">
-              <div class="img bg-img" data-image-src="img/items/img-sample2-square.jpg">
-                <img class="service-img" alt="img" src="img/items/mesure.png">
+              <div class="img bg-img" data-image-src="/assets/img/items/img-sample2-square.jpg">
+                <img class="service-img" alt="img" src="/assets/img/items/mesure.png">
               </div>
             </div>
           </div>
@@ -637,7 +638,7 @@
         <div class="slide-wrapper">
           <div class="item-wrapper anim">
             <div class="illustr zoomout-1">
-              <div class="img bg-img" data-image-src="img/items/img-sample1.jpg"></div>
+              <div class="img bg-img" data-image-src="/assets/img/items/img-sample1.jpg"></div>
             </div>
             <div class="legend">
               <div class="title anim-1">
@@ -665,7 +666,7 @@
         <div class="slide-wrapper">
           <div class="item-wrapper anim">
             <div class="illustr zoomout-1">
-              <div class="img bg-img" data-image-src="img/items/img-sample2.jpg"></div>
+              <div class="img bg-img" data-image-src="/assets/img/items/img-sample2.jpg"></div>
             </div>
             <div class="legend">
               <div class="title anim-1">
@@ -693,7 +694,7 @@
         <div class="slide-wrapper">
           <div class="item-wrapper anim">
             <div class="illustr zoomout-1">
-              <div class="img bg-img" data-image-src="img/items/img-sample3.jpg"></div>
+              <div class="img bg-img" data-image-src="/assets/img/items/img-sample3.jpg"></div>
             </div>
             <div class="legend">
               <div class="title anim-1">
@@ -850,7 +851,7 @@
 
     <!-- Begin of contact section -->
     <div class="section section-contact fp-auto-height-responsive no-slide-arrows " data-section="contact">
-      <div class="section-cover-tier right fit bg-img" data-image-src="./img/items/img-sample2-square.jpg">
+      <div class="section-cover-tier right fit bg-img" data-image-src="./assets/img/items/img-sample2-square.jpg">
       </div>
 
       <!-- begin of information slide -->
@@ -1050,7 +1051,6 @@
 
   <!-- BEGIN OF page footer -->
   <footer id="site-footer" class="page-footer">
-
     <!-- Right content -->
     <div class="footer-right">
       <p class="note">DESIGNED BY
@@ -1075,22 +1075,22 @@
 
   <!-- scripts -->
   <!-- All Javascript plugins goes here -->
-  <script src="./js/vendor/jquery-1.12.4.min.js"></script>
-  <script src="./js/slick/slick.min.js"></script>
+  <script src="./assets/js/vendor/jquery-1.12.4.min.js"></script>
+  <script src="./assets/js/slick/slick.min.js"></script>
 
   <!-- All vendor scripts -->
-  <script src="./js/vendor/parallax.min.js"></script>
-  <script src="./js/vendor/scrolloverflow.min.js"></script>
-  <script src="./js/vendor/all.js"></script>
-  <script src="./js/particlejs/particles.min.js"></script>
+  <script src="./assets/js/vendor/parallax.min.js"></script>
+  <script src="./assets/js/vendor/scrolloverflow.min.js"></script>
+  <script src="./assets/js/vendor/all.js"></script>
+  <script src="./assets/js/particlejs/particles.min.js"></script>
 
   <!-- Form script -->
-  <script src="./js/form_script.js"></script>
+  <script src="./assets/js/form_script.js"></script>
 
   <!-- Javascript main files -->
-  <script src="./js/main.js"></script>
+  <script src="./assets/js/main.js"></script>
 
-  <script src="js/particlejs/particles-init.js"></script>
+  <script src="/assets/js/particlejs/particles-init.js"></script>
 
 </body>
 
