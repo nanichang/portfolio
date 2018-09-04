@@ -164,18 +164,18 @@
               <span class="sr-only">(current)</span>
             </a>
           </li>
-          <li class="nav-item">
+          <!-- <li class="nav-item">
             <a class="nav-link" href="./gallery.html">Projects</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="./item.html">Item</a>
-          </li>
+          </li> -->
           <li class="nav-item">
             <a class="nav-link" href="./index.html#home">Contact</a>
           </li>
-          <li class="nav-item">
+          <!-- <li class="nav-item">
             <a class="nav-link" href="./demo.html">Demo</a>
-          </li>
+          </li> -->
         </ul>
         <div class="menu-social">
           <p class="note">Made with <i class="icon fa fa-heart"></i> by: 
