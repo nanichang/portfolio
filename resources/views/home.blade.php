@@ -331,7 +331,6 @@
           </ul>
         </div>
 
-
         <!-- Arrows scroll down/up -->
         <footer class="section-footer scrolldown">
           <!--<a class="up">
@@ -395,8 +394,6 @@
                 </div>
               </div>
             </div>
-
-
           </div>
         </div>
 
@@ -652,18 +649,15 @@
         <div class="slide-wrapper">
           <div class="item-wrapper anim">
             <div class="illustr zoomout-1">
-              <div class="img bg-img" data-image-src="/assets/img/items/img-sample1.jpg"></div>
+              <div class="img bg-img" data-image-src="/assets/img/items/terminus.jpg"></div>
             </div>
             <div class="legend">
               <div class="title anim-1">
                 <h3 class="display-decor display-title">terminus.ng</h3>
-                <h4>Luna Residence</h4>
+                <!-- <h4>Luna Residence</h4> -->
               </div>
               <div class="content anim-2">
-                <p>Lorem ipsum magicum dolor sit amet, consectetur adipiscing elit.
-                  Maecenas a sem ultrices neque vehicula fermentum a sit amet nulla.
-                  Lorem ipsum magicum dolor sit amet, consectetur adipiscing elit.
-                  Maecenas a sem ultrices neque vehicula fermentum a sit amet nulla.</p>
+                <p>Terminus.ng is a slight deviation from the conventional e-commerce platforms like Konga and Jumia. Since e-commerce is disrupting the traditional commerce, something else that is carefully crafted can also disrupt e-commerce — technology can disrupt technology. So they called it “c-commerce”, where c stands for “chat”.</p>
                 <a class="btn btn-outline btn-primary" href="item.html#project_url">
                   <span class="text">Details</span>
                   <span class="icon">
@@ -684,14 +678,11 @@
             </div>
             <div class="legend">
               <div class="title anim-1">
-                <h3 class="display-decor display-title">Garden and Deco</h3>
-                <h4>Palais Bords de Mer</h4>
+                <h3 class="display-decor display-title">ahmedmakarfi.org</h3>
+                <!-- <h4>Palais Bords de Mer</h4> -->
               </div>
               <div class="content anim-2">
-                <p>Lorem ipsum magicum dolor sit amet, consectetur adipiscing elit.
-                  Maecenas a sem ultrices neque vehicula fermentum a sit amet nulla.
-                  Lorem ipsum magicum dolor sit amet, consectetur adipiscing elit.
-                  Maecenas a sem ultrices neque vehicula fermentum a sit amet nulla.</p>
+                <p>HIS Excellency Alhaji Ahmed Mohammed Makarfi He is very well respected by both political admirers as well as foes as a very intelligent and gifted administrator and leader of men. He is one politician that has the ears of virtually all of his colleagues across party lines..</p>
                 <a class="btn btn-outline btn-primary" href="item.html#project_url">
                   <span class="text">Details</span>
                   <span class="icon">
@@ -712,14 +703,11 @@
             </div>
             <div class="legend">
               <div class="title anim-1">
-                <h3 class="display-decor display-title">Africa Home Design</h3>
-                <h4>La Case Ressort</h4>
+                <h3 class="display-decor display-title">Value Services</h3>
+                <!-- <h4>La Case Ressort</h4> -->
               </div>
               <div class="content anim-2">
-                <p>Lorem ipsum magicum dolor sit amet, consectetur adipiscing elit.
-                  Maecenas a sem ultrices neque vehicula fermentum a sit amet nulla.
-                  Lorem ipsum magicum dolor sit amet, consectetur adipiscing elit.
-                  Maecenas a sem ultrices neque vehicula fermentum a sit amet nulla.</p>
+                <p>Value Services is a private partnership which focuses on sports betting using betting syndicates with willing members of the public known by, or introduced to, the partners and their employees. VS currently generates profit by making value bets on horse racing events held in the UK and Ireland.</p>
                 <a class="btn btn-outline btn-primary" href="item.html#project_url">
                   <span class="text">Details</span>
                   <span class="icon">
