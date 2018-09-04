@@ -58,6 +58,8 @@
   <!--<link rel="stylesheet" href="./css/style-default.css">-->
 
   <script src="./assets/js/vendor/modernizr-2.7.1.min.js"></script>
+  <link rel="icon" type="img/ico" href="/assets/img/favicon.jpg">
+
 </head>
 
 <body id="menu" class="body-page">
