@@ -92,7 +92,7 @@
     <!-- Begin of logo/brand -->
     <a class="navbar-brand" href="./#">
       <span class="logo">
-        <img class="light-logo" src="/assets/img/logo.png" alt="Logo">
+        <img class="light-logo" src="/assets/img/logo.jpg" alt="Logo">
       </span>
       <!-- logo title (optional) -->
       <!-- <span class="text">
