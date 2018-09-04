@@ -5,7 +5,7 @@
   <meta http-equiv="content-type" content="text/html; charset=UTF-8">
 
   <!-- Page Title Here -->
-  <title>Nanichang Katzing - Portfolio</title>
+  <title>Nani - Portfolio</title>
 
   <!-- Meta -->
   
@@ -122,9 +122,24 @@
               <i class="icon fa fa-instagram"></i>
             </a>
           </li>
+          <li class="nav-item">
+            <a href="//github.com/nanichang" class="btn-social">
+              <i class="icon fa fa-github"></i>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="//github.com/nanichang" class="btn-social">
+              <i class="icon fa fa-bitbucket"></i>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="//github.com/nanichang" class="btn-social">
+              <i class="icon fa fa-gitlab"></i>
+            </a>
+          </li>
         </ul>
         <!-- Begin of CTA Actions, & Icons menu (optional) -->
-        <ul class="navbar-nav navbar-nav-actions">
+        <!-- <ul class="navbar-nav navbar-nav-actions">
           <li class="nav-item">
             <a class="btn btn-outline btn-round" target="_blank" href="https://themeforest.net/user/mivfx/portfolio">
               <span class="text">Buy Now</span>
@@ -133,7 +148,7 @@
               </span>
             </a>
           </li>
-        </ul>
+        </ul> -->
         <!-- End of CTA & Icons menu -->
       </nav>
       <!-- End of top menu -->
@@ -161,24 +176,24 @@
           </li>
         </ul>
         <div class="menu-social">
-          <p class="note">Website made by
-            <a href="//highhay.com">
-              <span class="marked">Miradontsoa</span>
+          <p class="note">Made with <i class="icon fa fa-heart"></i> by: 
+            <a href="#">
+              <span class="marked">Nani</span>
             </a>
           </p>
           <ul class="social">
             <li>
-              <a href="//facebook.com/miradontsoa">
+              <a href="//facebook.com/nanichang.katzing">
                 <i class="icon fa fa-facebook"></i>
               </a>
             </li>
             <li>
-              <a href="//twitter/miradontsoa">
+              <a href="//twitter/nanichangK">
                 <i class="icon fa fa-twitter"></i>
               </a>
             </li>
             <li>
-              <a href="//instagram.com/miradontsoa">
+              <a href="//instagram.com/nanichang.katzin">
                 <i class="icon fa fa-instagram"></i>
               </a>
             </li>
@@ -247,15 +262,15 @@
             <div class="col-12 col-lg-8 text-left">
               <!-- title -->
               <div class="title-desc">
-                <h1 class="display-4 display-title display-decor home-title text-slide-in anim-1-off">Style &amp;
-                  <br>Design.</h1>
+                <h1 class="display-4 display-title display-decor home-title text-slide-in anim-1-off">Hi 
+                  <br>I'm Nani.</h1>
               </div>
             </div>
 
             <div class="col-12 col-lg-6 text-left">
               <!-- description -->
               <div class="title-desc">
-                <p class="anim-4">We are the best home designer in town.</p>
+                <p class="anim-4">Looking for a profesional software developer?</p>
               </div>
 
               <!-- Action button -->
@@ -277,28 +292,28 @@
           <ul class="nav nav-btns-list">
             <li class="nav-item">
               <a class="btn-framed" href="#services/0">
-                <span class="icon">AR</span>
+                <span class="icon">FD</span>
                 <span class="text">
-                  <span class="b-title">Architecture</span>
-                  <span class="b-desc">Rural and City Architecture</span>
+                  <span class="b-title">Front-End Dev...</span>
+                  <span class="b-desc">HTML, CSS, JS, ReactJS</span>
                 </span>
               </a>
             </li>
             <li class="nav-item">
               <a class="btn-framed" href="#services/1">
-                <span class="icon">HD</span>
+                <span class="icon">BD</span>
                 <span class="text">
-                  <span class="b-title">Home Design</span>
-                  <span class="b-desc">Interior Design, Home Deco, Potager</span>
+                  <span class="b-title">Back-End Dev...</span>
+                  <span class="b-desc">PHP, Laravel, Express, NodeJS</span>
                 </span>
               </a>
             </li>
             <li class="nav-item">
               <a class="btn-framed" href="#services/2">
-                <span class="icon">PB</span>
+                <span class="icon">QL</span>
                 <span class="text">
-                  <span class="b-title">Plumbing</span>
-                  <span class="b-desc">Electricity, Plumbing, and so on.</span>
+                  <span class="b-title">Query Lang...</span>
+                  <span class="b-desc">SQL, GraphQL and so on.</span>
                 </span>
               </a>
             </li>
@@ -309,7 +324,7 @@
                 </span>
                 <span class="text">
                   <span class="b-title">Have a project?</span>
-                  <span class="b-desc">Phone us: +0 12 345 678</span>
+                  <span class="b-desc">Phone Me: +234-703-503-9214</span>
                 </span>
               </a>
             </li>
@@ -341,7 +356,7 @@
 
     <!-- Begin of description section -->
     <div class="section section-description fp-auto-height-responsive " data-section="about">
-      <div class="section-cover-tier left fit bg-img" data-image-src="./assets/img/items/img-sample2.jpg">
+      <div class="section-cover-tier left fit bg-img" data-image-src="./assets/img/6v.jpg">
       </div>
       <!-- Begin of section wrapper -->
       <div class="section-wrapper fullwidth fullheight with-margin center-lg-v padding-wrapper-topbottom">
@@ -356,10 +371,9 @@
               <div class="wrapper">
                 <!-- title and description -->
                 <div class="title-desc">
-                  <h2 class="display-4 display-title display-decor anim-1">Savoir Faire</h2>
-                  <p class="anim-2 desc-decor">This describes what we do and what is our mission. Lorem ipsum
-                    magicum dolor sit amet, consectetur adipiscing elit. Maecenas
-                    a sem ultrices neque vehicula fermentum a sit amet nulla.
+                  <h2 class="display-4 display-title display-decor anim-1">About Me</h2>
+                  <p class="anim-2 desc-decor">Hi, I'm Nani Paul, a Jos base software developer. <br />
+                  I possess more than two (2) years of progressive experience in the Web Development field. My professional history includes positions such as Network admin/Project supervisor at InterSky Digital Limited as well as Software Developper at nHub Nigeria.
                   </p>
                 </div>
 
@@ -642,7 +656,7 @@
             </div>
             <div class="legend">
               <div class="title anim-1">
-                <h3 class="display-decor display-title">Kitchen Design</h3>
+                <h3 class="display-decor display-title">terminus.ng</h3>
                 <h4>Luna Residence</h4>
               </div>
               <div class="content anim-2">
@@ -868,8 +882,8 @@
                   <div class="title-desc">
                     <div class="anim-2">
                       <h2 class="display-4 display-title display-decor">Contact</h2>
-                      <p class="desc-decor">For questions about our company and products found on our stores,
-                        just contact us.</p>
+                      <p class="desc-decor">For questions about me and services i render...,
+                        just contact me.</p>
                     </div>
                     <div class="address-container anim-3">
 
@@ -877,14 +891,18 @@
                         <div class="col-12 col-md-12 col-xl-6">
                           <h4>Contact</h4>
                           <p class="mb-0">
-                            +0 1 234 567 89
-                            <br>ouremail@domain.com
+                            +234-703-503-9214
+                            <br>nanipaul68@gmail.com
+                            <br>nanipaul68@live.com
+                            <br>nanipaul@nhub.ng
                           </p>
                         </div>
                         <div class="col-12 col-md-12 col-xl-6">
                           <h4>Address</h4>
-                          <p class="mb-0">12 Street Turning Place
-                            <br>South Est, Antartica
+                          <p class="mb-0">nHub Nigeria
+                            <br>#4 JOEKO House,
+                            <br>Rayfield, Jos
+                            <br>Plateau state
                           </p>
                         </div>
                       </div>
@@ -893,10 +911,10 @@
 
                   <!-- Action button -->
                   <div class="btns-action anim-4">
-                    <a href="//twitter.com/miradontsoa" class="btn btn-social">
+                    <a href="//twitter.com/nanichangK" class="btn btn-social">
                       <i class="icon fa fa-twitter"></i>
                     </a>
-                    <a href="//linkedin.com/miradontsoa" class="btn btn-social">
+                    <a href="//linkedin.com/nanichang-katzin-8a46326" class="btn btn-social">
                       <i class="icon fa fa-linkedin"></i>
                     </a>
 
@@ -922,7 +940,7 @@
         <!-- begin of slide footer -->
         <div class="slide-footer section-footer footer-register">
           <form class="send_email_form form-container form-container-transparent form-container-white"
-          method="post" action="ajaxserver/serverfile.php">
+          method="post" action="">
             <div class="form-desc">
               <!-- Optioanl text here -->
               <!-- <p class="invite">Register email to newsletter :</p> -->
@@ -968,7 +986,7 @@
                 <!-- title and description -->
                 <div class="title-desc">
                   <div class="anim-2">
-                    <h2 class="display-4 display-title display-decor">Email Us</h2>
+                    <h2 class="display-4 display-title display-decor">Email Me</h2>
                     <p class="desc-decor">For questions about our company and products found on our stores.
                       Cras vitae neque molestie, rhoncus ipsum sit amet, lobortis
                       dui. Fusce in urna sem.</p>
@@ -1053,20 +1071,20 @@
   <footer id="site-footer" class="page-footer">
     <!-- Right content -->
     <div class="footer-right">
-      <p class="note">DESIGNED BY
-        <a href="https://themeforest.com/user/mivfx/portfolio">
-          <span class="marked">MIVFX</span>
+      <p class="note">DESIGNED WITH  <i class="icon fa fa-heart"></i> by
+        <a href="#">
+          <span class="marked">Nani</span>
         </a>
       </p>
       <ul class="social-text">
         <li>
-          <a href="//facebook.com/miradontsoa">Fb</a>
+          <a href="//facebook.com/nanichang.katzin">Fb</a>
         </li>
         <li>
-          <a href="//twitter/miradontsoa">Tw</a>
+          <a href="//twitter/nanichangK">Tw</a>
         </li>
         <li>
-          <a href="//instagram.com/miradontsoa">In</a>
+          <a href="//instagram.com/nanichang.katzin">In</a>
         </li>
       </ul>
     </div>
