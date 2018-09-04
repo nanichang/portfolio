@@ -421,7 +421,7 @@
 
     <!-- Begin of description section -->
     <div class="section section-description fp-auto-height-responsive " data-section="about-more">
-      <div class="section-cover-tier right fit bg-img" data-image-src="./assets/img/items/img-person.jpg">
+      <div class="section-cover-tier right fit bg-img" data-image-src="./assets/img/items/react_natvie_hero_top.png">
       </div>
       <!-- Begin of section wrapper -->
       <div class="section-wrapper fullwidth fullheight with-margin center-lg-v padding-wrapper-topbottom">
@@ -434,19 +434,17 @@
               <div class="wrapper">
                 <!-- title and description -->
                 <div class="title-desc">
-                  <h2 class="display-4 display-title display-decor anim-1">Qui suis-je?</h2>
-                  <p class="anim-2 desc-decor">This describes what we do and what is our mission. Lorem ipsum
-                    magicum dolor sit amet, consectetur adipiscing elit. Maecenas
-                    a sem ultrices neque vehicula fermentum a sit amet nulla.
+                  <h2 class="display-4 display-title display-decor anim-1">Mobile Development</h2>
+                  <p class="anim-2 desc-decor">React Native <br /> Note: I can't take a gig on this at the moment as I am currently learning the stack.
                   </p>
                 </div>
 
                 <!-- Action button -->
                 <div class="btns-action anim-3">
-                  <a href="//twitter.com/miradontsoa" class="btn btn-social">
+                  <a href="//twitter.com/nanichangK" class="btn btn-social">
                     <i class="icon fa fa-twitter"></i>
                   </a>
-                  <a href="//linkedin.com/miradontsoa" class="btn btn-social">
+                  <a href="//linkedin.com/nanichang-katzin-8a46326" class="btn btn-social">
                     <i class="icon fa fa-linkedin"></i>
                   </a>
                   <a class="btn btn-outline btn-primary" href="#services">
@@ -504,11 +502,8 @@
                 <div class="row">
                   <div class="col-12 col-lg-6">
                     <div class="title-desc">
-                      <h3 class="display-title display-decor anim-1">City &amp; Rural
-                        <br>Architecture</h3>
-                      <p class="desc-decor anim-2">Lorem ipsum magicum dolor sit amet, consectetur adipiscing
-                        elit. A service is a transaction in which no physical goods
-                        are transferred from the seller to the buyer.</p>
+                      <h3 class="display-title display-decor anim-1">Front-End Development</h3>
+                      <p class="desc-decor anim-2">HTML5, <br />CSS (BootstrapCSS Semantic UI, MaterializeCSS, UI-Kit) <br /> JavaScript, <br /> ReactJS</p>
                     </div>
                     <a class="btn btn-outline btn-primary anim-3" href="item.html#project_url">
                       <span class="text">Details</span>
@@ -522,8 +517,8 @@
             </div>
 
             <div class="illustr">
-              <div class="img bg-img" data-image-src="/assets/img/items/img-sample4-square.jpg">
-                <img class="service-img" alt="img" src="/assets/img/items/settings_white.png">
+              <div class="img bg-img" data-image-src="/assets/img/items/front-end-development.png">
+                <!-- <img class="service-img" alt="img" src="/assets/img/items/front-end-development.png"> -->
               </div>
             </div>
           </div>
@@ -539,11 +534,8 @@
                 <div class="row">
                   <div class="col-12 col-lg-6">
                     <div class="title-desc">
-                      <h3 class="display-title display-decor anim-1">Homedeco &amp;
-                        <br>Design</h3>
-                      <p class="desc-decor anim-2">Lorem ipsum magicum dolor sit amet, consectetur adipiscing
-                        elit. A service is a transaction in which no physical goods
-                        are transferred from the seller to the buyer.</p>
+                      <h3 class="display-title display-decor anim-1">Back-End Development</h3>
+                      <p class="desc-decor anim-2">PHP (Laravel), <br /> ExpressJS, <br /> NodeJS</p>
                     </div>
                     <a class="btn btn-outline btn-primary anim-3" href="item.html#project_url">
                       <span class="text">Details</span>
@@ -557,8 +549,8 @@
             </div>
 
             <div class="illustr">
-              <div class="img bg-img" data-image-src="/assets/img/items/img-sample3-square.jpg">
-                <img class="service-img" alt="img" src="/assets/img/items/bulb.png">
+              <div class="img bg-img" data-image-src="/assets/img/items/back-end.png">
+                <!-- <img class="service-img" alt="img" src="/assets/img/items/bulb.png"> -->
               </div>
             </div>
           </div>
@@ -574,11 +566,9 @@
                 <div class="row">
                   <div class="col-12 col-lg-6">
                     <div class="title-desc">
-                      <h3 class="display-title display-decor anim-1">Plumbing &amp;
-                        <br>Cleaning</h3>
-                      <p class="desc-decor anim-2">Lorem ipsum magicum dolor sit amet, consectetur adipiscing
-                        elit. A service is a transaction in which no physical goods
-                        are transferred from the seller to the buyer.</p>
+                      <h3 class="display-title display-decor anim-1">Query Language
+                        <!-- <br>Cleaning</h3> -->
+                      <p class="desc-decor anim-2">SQL <br /> GraphQL (Apollo, Relay Modern)</p>
                     </div>
                     <a class="btn btn-outline btn-primary anim-3" href="item.html#project_url">
                       <span class="text">Details</span>
@@ -592,8 +582,8 @@
             </div>
 
             <div class="illustr">
-              <div class="img bg-img" data-image-src="/assets/img/items/img-sample2-square.jpg">
-                <img class="service-img" alt="img" src="/assets/img/items/mesure.png">
+              <div class="img bg-img" data-image-src="/assets/img/items/graphql.png">
+                <!-- <img class="service-img" alt="img" src="/assets/img/items/mesure.png"> -->
               </div>
             </div>
           </div>
@@ -776,11 +766,10 @@
               <div class="wrapper">
                 <!-- title and description -->
                 <div class="title-desc">
-                  <h2 class="display-4 display-title anim-1">We are
-                    <span class="stroke-off">strong</span>
+                  <h2 class="display-4 display-title anim-1">GitHub 
+                    <span class="stroke-off">Stats</span>
                   </h2>
-                  <p class="anim-2 desc-decor">Our customers trust us. At bottom, you can see our awesome performance.
-                    Lorem ipsum magicum dolor sit amet consectetur.
+                  <p class="anim-2 desc-decor">At bottom, you should see my awesome performance on GitHub <i class="icon fa fa-github"></i>.
                   </p>
                 </div>
 
@@ -803,13 +792,13 @@
               <div class="col-6 col-lg-3 item">
                 <div class="num-wrapper">
                   <div class="num">1200</div>
-                  <div class="desc">Customers</div>
+                  <div class="desc">Commits</div>
                 </div>
               </div>
               <div class="col-6 col-lg-3 item">
                 <div class="num-wrapper">
                   <div class="num">100+</div>
-                  <div class="desc">Partners</div>
+                  <div class="desc">Repos</div>
                 </div>
               </div>
               <div class="col-6 col-lg-3 item">
@@ -853,8 +842,9 @@
 
     <!-- Begin of contact section -->
     <div class="section section-contact fp-auto-height-responsive no-slide-arrows " data-section="contact">
-      <div class="section-cover-tier right fit bg-img" data-image-src="./assets/img/items/img-sample2-square.jpg">
-      </div>
+      <!-- <div class="section-cover-tier right fit bg-img"> -->
+      <!-- <div id="map"></div> -->
+      <!-- </div> -->
 
       <!-- begin of information slide -->
       <div class="slide" id="information" data-anchor="information">
@@ -975,9 +965,8 @@
                 <div class="title-desc">
                   <div class="anim-2">
                     <h2 class="display-4 display-title display-decor">Email Me</h2>
-                    <p class="desc-decor">For questions about our company and products found on our stores.
-                      Cras vitae neque molestie, rhoncus ipsum sit amet, lobortis
-                      dui. Fusce in urna sem.</p>
+                    <p class="desc-decor">For questions about my portfolio and services found here.
+                      Use the form below to get in touch.</p>
                   </div>
                 </div>
                 <!-- begin of message container -->
@@ -1097,6 +1086,22 @@
   <script src="./assets/js/main.js"></script>
 
   <script src="/assets/js/particlejs/particles-init.js"></script>
+  <!-- Google Map api -->
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBFzxEjF0tqARbo864g59o3VuVCsI7nuHo&callback=initMap"></script>
+  <script>
+      function initMap(){
+          var location = {lat: 9.87883, lng: 8.8744044};
+          var map = new google.maps.Map(document.getElementById("map"),{
+              zoom: 11,
+              center: location,
+              scrollwheel:false
+          });
+          var marker = new google.maps.Marker({
+              position: location,
+              map: map
+          });
+      }
+  </script>
 
 </body>
 
