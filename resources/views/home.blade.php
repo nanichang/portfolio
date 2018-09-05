@@ -22,8 +22,8 @@
 
   <!-- Facebook Meta -->
   <meta property="og:url" content="">
-  <meta property="og:title" content="Page Title">
-  <meta property="og:description" content="Description of the page">
+  <meta property="og:title" content="Nanichang Katzing">
+  <meta property="og:description" content="Portfolio">
   <meta property="og:type" content="website">
   <meta property="og:image" content="/assets/img/bg-default.jpg">
   <meta property="og:image:secure_url" content="/assets/img/bg-default.jpg">
@@ -140,17 +140,6 @@
             </a>
           </li>
         </ul>
-        <!-- Begin of CTA Actions, & Icons menu (optional) -->
-        <!-- <ul class="navbar-nav navbar-nav-actions">
-          <li class="nav-item">
-            <a class="btn btn-outline btn-round" target="_blank" href="https://themeforest.net/user/mivfx/portfolio">
-              <span class="text">Buy Now</span>
-              <span class="icon big">
-                <span class="fa fa-cart-arrow-down"></span>
-              </span>
-            </a>
-          </li>
-        </ul> -->
         <!-- End of CTA & Icons menu -->
       </nav>
       <!-- End of top menu -->
@@ -160,22 +149,13 @@
         <div class="click-exit"></div>
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="./index.html#home">About
+            <a class="nav-link" href="/#home">About
               <span class="sr-only">(current)</span>
             </a>
           </li>
-          <!-- <li class="nav-item">
-            <a class="nav-link" href="./gallery.html">Projects</a>
-          </li>
           <li class="nav-item">
-            <a class="nav-link" href="./item.html">Item</a>
-          </li> -->
-          <li class="nav-item">
-            <a class="nav-link" href="./index.html#home">Contact</a>
+            <a class="nav-link" href="/#home">Contact</a>
           </li>
-          <!-- <li class="nav-item">
-            <a class="nav-link" href="./demo.html">Demo</a>
-          </li> -->
         </ul>
         <div class="menu-social">
           <p class="note">Made with <i class="icon fa fa-heart"></i> by: 
@@ -185,7 +165,7 @@
           </p>
           <ul class="social">
             <li>
-              <a href="//facebook.com/nanichang.katzing">
+              <a href="//facebook.com/nanichang.katzin">
                 <i class="icon fa fa-facebook"></i>
               </a>
             </li>
@@ -646,7 +626,6 @@
             <div class="legend">
               <div class="title anim-1">
                 <h3 class="display-decor display-title">terminus.ng</h3>
-                <!-- <h4>Luna Residence</h4> -->
               </div>
               <div class="content anim-2">
                 <p>Terminus.ng is a slight deviation from the conventional e-commerce platforms like Konga and Jumia. Since e-commerce is disrupting the traditional commerce, something else that is carefully crafted can also disrupt e-commerce — technology can disrupt technology. So they called it “c-commerce”, where c stands for “chat”.</p>
@@ -666,12 +645,11 @@
         <div class="slide-wrapper">
           <div class="item-wrapper anim">
             <div class="illustr zoomout-1">
-              <div class="img bg-img" data-image-src="/assets/img/items/img-sample2.jpg"></div>
+              <!-- <div class="img bg-img" data-image-src="/assets/img/items/ahmedmakarfi.jpg"></div> -->
             </div>
             <div class="legend">
               <div class="title anim-1">
                 <h3 class="display-decor display-title">ahmedmakarfi.org</h3>
-                <!-- <h4>Palais Bords de Mer</h4> -->
               </div>
               <div class="content anim-2">
                 <p>HIS Excellency Alhaji Ahmed Mohammed Makarfi He is very well respected by both political admirers as well as foes as a very intelligent and gifted administrator and leader of men. He is one politician that has the ears of virtually all of his colleagues across party lines..</p>
@@ -691,7 +669,7 @@
         <div class="slide-wrapper">
           <div class="item-wrapper anim">
             <div class="illustr zoomout-1">
-              <div class="img bg-img" data-image-src="/assets/img/items/img-sample3.jpg"></div>
+              <!-- <div class="img bg-img" data-image-src="/assets/img/items/vs.jpg"></div> -->
             </div>
             <div class="legend">
               <div class="title anim-1">
@@ -975,7 +953,7 @@
                 <div class="message-form">
                   <div class="form-container form-container-card">
                     <!-- Message form container -->
-                    <form class="send_message_form message form" method="post" action="ajaxserver/serverfile.php"
+                    <form class="send_message_form message form" method="post" action="#"
                     id="message_form">
                       <div class="form-group name">
                         <input id="mes-name" name="name" type="text" placeholder="Name" class="form-control form-control-outline thick form-success-clean"
@@ -1089,21 +1067,16 @@
 
   <script src="/assets/js/particlejs/particles-init.js"></script>
   <!-- Google Map api -->
-  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBFzxEjF0tqARbo864g59o3VuVCsI7nuHo&callback=initMap"></script>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-65978169-5"></script>
   <script>
-      function initMap(){
-          var location = {lat: 9.87883, lng: 8.8744044};
-          var map = new google.maps.Map(document.getElementById("map"),{
-              zoom: 11,
-              center: location,
-              scrollwheel:false
-          });
-          var marker = new google.maps.Marker({
-              position: location,
-              map: map
-          });
-      }
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-65978169-5');
   </script>
+
 
 </body>
 
