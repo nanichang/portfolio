@@ -14,3 +14,5 @@
 Route::get('/', function () {
     return view('home');
 });
+
+Route::post('/', 'ContactController@postContact')->name('send_email');

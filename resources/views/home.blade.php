@@ -30,6 +30,7 @@
   <meta property="og:image:type" content="image/jpg">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
+  <meta name="csrf-token" content="{{ csrf_token() }}">
 
   <!-- Place favicon.ico and apple-touch-icon(s) in the root directory -->
   <!-- Web fonts and Web Icons -->
@@ -975,8 +976,9 @@
                 <div class="message-form">
                   <div class="form-container form-container-card">
                     <!-- Message form container -->
-                    <form class="send_message_form message form" method="post" action="ajaxserver/serverfile.php"
+                    <form class="send_message_form message form" method="post" action="{{ route('send_email') }}"
                     id="message_form">
+                      {{ csrf_field() }}
                       <div class="form-group name">
                         <input id="mes-name" name="name" type="text" placeholder="Name" class="form-control form-control-outline thick form-success-clean"
                         required>
@@ -1089,7 +1091,7 @@
 
   <script src="/assets/js/particlejs/particles-init.js"></script>
   <!-- Google Map api -->
-  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBFzxEjF0tqARbo864g59o3VuVCsI7nuHo&callback=initMap"></script>
+  <!-- <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBFzxEjF0tqARbo864g59o3VuVCsI7nuHo&callback=initMap"></script>
   <script>
       function initMap(){
           var location = {lat: 9.87883, lng: 8.8744044};
@@ -1103,7 +1105,7 @@
               map: map
           });
       }
-  </script>
+  </script> -->
 
 </body>
 

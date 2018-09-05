@@ -2,31 +2,34 @@
 
 /* Ajax Form Plugin V 1.0.1
  * Send contact and newsletter form data to a server and waiting for its response.
- * Compatible with jqery validator plugin
+ * Compatible with jquery validator plugin
  */
 
 (function ($) {
 
 	$.fn.initForm = function (options) {
-		var settings = $.extend({
+		let settings = $.extend({
 			type: 'post',
-			serverUrl: '#',
+			serverUrl: "/",
 			successClean: this.find('.form-success-clean'),
 			successGone: this.find('.form-success-gone'),
 			successInvisible: this.find('.form-success-invisible'),
 			successVisible: this.find('.form-success-visible'),
 			textFeedback: this.find('.form-text-feedback'),
 		}, options);
-		var $ajax = {
+		
+		let $ajax = {
 			sendRequest: function (p) {
-				var form_fill = $(p);
+				let form_fill = $(p);
 
 				// Get the form data.
-				var form_inputs = form_fill.find(':input');
-				var form_data = {};
+				let form_inputs = form_fill.find(':input');
+				let form_data = {};
+				console.log('form data: ', form_data);
 				form_inputs.each(function () {
 					form_data[this.name] = $(this).val();
 				});
+				
 				$.ajax(
 					{
 						/*
@@ -39,6 +42,9 @@
 						type: settings.type,
 						data: form_data,
 						dataType: 'json',
+						headers: {
+							'X-CSRF-TOKEN': $('meta[name="_token"]').attr('content')
+						},
 
 						/* CALLBACK FOR SENDING EMAIL GOEAS HERE */
 						success: function (data) {
@@ -51,6 +57,7 @@
 								settings.successVisible.removeClass('invisible');
 								settings.successVisible.removeClass('gone');
 								console.log('Request sent successfully');
+								console.log('Request setting: ', settings.serverUrl);
 							}
 							// Else the login credentials were invalid.
 							else {
@@ -59,7 +66,7 @@
 								settings.textFeedback.removeClass('invisible');
 								settings.textFeedback.html('Error when sending request.');
 								console.log('Could not process AJAX request to server');
-							}
+							};
 						},
 						/* show error message */
 						error: function (jqXHR, textStatus, errorThrown) {
@@ -90,7 +97,7 @@
 					}
 				}
 			});
-		}
+		};
 
 
 
@@ -102,11 +109,11 @@
 			if (jQuery.validator) {
 				if ($(this).valid()) {
 					$ajax.sendRequest(this);
-				}
+				};
 			}
 			else {
 				$ajax.sendRequest(this);
-			}
+			};
 		});
 
 	};
