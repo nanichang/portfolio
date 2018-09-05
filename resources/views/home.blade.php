@@ -373,7 +373,7 @@
                 <!-- title and description -->
                 <div class="title-desc">
                   <h2 class="display-4 display-title display-decor anim-1">About Me</h2>
-                  <p class="anim-2 desc-decor">Hi, I'm Nanichang Katzing (AKA: Nani Paul), a Jos base software developer. <br />
+                  <p class="anim-2 desc-decor">Hi, I'm Nanichang Katzing..... A software developer based in Jos, the capital of Plateau state in Nigeria <br />
                   I possess more than two (2) years of progressive experience in the Web Development field. My professional history includes positions such as a remote Front-End developer at TELIOS Support Services <a href="https://tssdevs.com" target="_blank">(https://tssdevs.com)</a> as well as Software Developper at nHub Nigeria (<a href="//nhub.ng" target="_blank">nhub.ng</a>, <a href="//nhubnigeria.com" target="_blank">nhubnigeria.com</a>).
                   </p>
                 </div>
