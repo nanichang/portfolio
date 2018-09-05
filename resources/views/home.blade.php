@@ -272,7 +272,7 @@
             <div class="col-12 col-lg-6 text-left">
               <!-- description -->
               <div class="title-desc">
-                <p class="anim-4">Looking for a profesional software developer?</p>
+                <p class="anim-4">Official name is Nanichang Katzing... Looking to hire my profesional software development skills?</p>
               </div>
 
               <!-- Action button -->
